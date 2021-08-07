@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap-icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Bootstrap Project 2</title>
+</head>
+
+<body>
+    <!------ Navbar --------->
+    <div class="container-fluid" id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark text-white" id="bgnav">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" id="logo" href="#"> Simple </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Aboutus"> About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#whyus"> Why Us</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdown">
+                                <li><a class="dropdown-item" href="#" class="dropd">Action</a></li>
+                                <li><a class="dropdown-item" href="#" class="dropd">Another action</a></li>
+                                <li><a class="dropdown-item" href="#" class="dropd">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactus"> Contact Us </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-md-12" id="formcontrol">
+                <h1>Welcome to Siimple</h1>
+                <p>Please, fill out the for below to be notified for the latest updates!</p>
+                <div class="container-fluid">
+                    <div class="form">
+                        <input type="text" name="name" placeholder="Your Name" Required>
+                        <input type="email" name="name" placeholder="Your email" required>
+                    </div> <br>
+                    <button type="button" class="btn btn-warning"> Notify me!</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <main>
+        <!-- page1 -->
+        <div class="container-fluid">
+        <div class="container-fluid" id="Aboutus">
+            <div class="row justify-content-evenly m-5">
+                <div class="col-md-5 mt-5">
+                    <img src="https://bootstrapmade.com/demo/templates/Siimple/assets/img/about-img.jpg" alt=""
+                        class="img-fluid">
+                </div>
+                <div class="col-md-6 mt-4" id="textside">
+                    <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                      <p><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</i></p>
+                         <ul>
+                            <li> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                            <li> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                            <li> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                        </li>
+                    </ul> <br>
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </div>
+            </div>
+        </div>
+        <!-- WHY Us section-->
+        <div class="container-fluid" id="whyus">
+            <div class="row justify-content-evenly" id="page3">
+                <div class="col-md-3 bg-white" id="mission">
+                  <img src="https://bootstrapmade.com/demo/templates/Siimple/assets/img/why-us-1.jpg" alt="" class="img-fluid">
+                  <h3 class="text-center" style="color: rgb(95, 73, 58);"><i class="bi bi-book-fill" id="imission"></i> <br><br> Our Mission</h3>
+                       <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                  <div class="col-md-3 bg-white" id="plan">
+                    <img src="https://bootstrapmade.com/demo/templates/Siimple/assets/img/why-us-2.jpg" alt="" class="img-fluid">
+                 <h3 class="text-center" style="color: rgb(95, 73, 58);"><i class="bi bi-stickies-fill" id="iplan"></i> <br> <br> Our Plan</h3>
+                   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                  </div>
+                  <div class="col-md-3 bg-white" id="Vission">
+                    <img src="https://bootstrapmade.com/demo/templates/Siimple/assets/img/why-us-3.jpg" alt="" class="img-fluid">
+                 <h3 class="text-center"style="color: rgb(95, 73, 58);"><i class="bi bi-image-alt" id="ivission"></i> <br> <br> Our Vission</h3>
+                  <p>Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+                </div>
+            
+
+        </div>
+        <!-- Frequenty Asked Questions -->
+        <div class="container-fluid"  id="faq">
+            <h1 class="pb-5 text-center">Frequenty Asked Questions</h1>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Non consectetur a erat nam at lectus urna duis?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+        <!-- Contact us -->
+        <div class="row justify-content-center " id="contactus">
+            <h1  class="text-center mb-5" style="font-weight:300"> Contact Us</h1>
+           <div class="col-lg-3 col-md-5 mb-5 mb-mb-0" id="address">
+             <p>   <i class="bi bi-geo-alt"></i>  &nbsp;&nbsp; &nbsp; A108 Adam Street <br>
+                &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  New York, NY 535022</p> <br>
+             <p>  <i class="bi bi-envelope"></i>  &nbsp;&nbsp; &nbsp; info@example.com </p> <br>
+             <p>   <i class="bi bi-telephone"></i>  &nbsp;&nbsp; &nbsp; +1 5589 55488 55s</p> <br>
+               <div class="icons">
+                   <a href=""> <i class="bi bi-twitter"></i></a>
+                   <a href=""> <i class="bi bi-facebook"></i></a>
+                   <a href=""><i class="bi bi-instagram"></i></a>
+                   <a href="https://www.linkedin.com/in/avinash-sarkate-b5ba0613b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BRY2yy0qCQVmNO8AAVMbK%2FA%3D%3D"><i class="bi bi-linkedin"></i></a>
+               </div>
+            </div>
+          
+           <div class="col-lg-5">
+                        <form action="">
+                <div class="mb-3">
+                <input type="text" class="form-control iside" id="formGroupExampleInput" placeholder="Your Name">
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control iside" id="formGroupExampleInput2" placeholder="Your Email">
+              </div>
+              <div class="mb-3">
+                <input type="text" class="form-control iside" id="formGroupExampleInput3" placeholder=" Your Subject">
+              </div>
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Massage" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Massage</label>
+              </div> <br> 
+               <div class=" buttons"> <button type="button" class="btn" id="button"> Send Massage </button> </div>
+            </form>           
+           </div>
+        </div>
+        
+        <!-- container end -->
+    </div>
+    <!-- footer -->
+        <div class="container-fluid pb-4 pt-4" id="footer">
+            <p class="text-white">© Copyright Siimple. All Rights Reserved</p>
+            <p>Designed by @avinashsarkate</p>
+
+        </div>
+
+    </main>
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
